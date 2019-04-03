@@ -1,0 +1,12 @@
+C:\@work\Consultoria\SintaxeApp\SintaxeApp\SintaxeApp\bin\Debug\netstandard2.0\SintaxeApp.deps.json
+C:\@work\Consultoria\SintaxeApp\SintaxeApp\SintaxeApp\bin\Debug\netstandard2.0\SintaxeApp.dll
+C:\@work\Consultoria\SintaxeApp\SintaxeApp\SintaxeApp\bin\Debug\netstandard2.0\SintaxeApp.pdb
+C:\@work\Consultoria\SintaxeApp\SintaxeApp\SintaxeApp\obj\Debug\netstandard2.0\SintaxeApp.csprojAssemblyReference.cache
+C:\@work\Consultoria\SintaxeApp\SintaxeApp\SintaxeApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\@work\Consultoria\SintaxeApp\SintaxeApp\SintaxeApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\@work\Consultoria\SintaxeApp\SintaxeApp\SintaxeApp\obj\Debug\netstandard2.0\SintaxeApp.csproj.CoreCompileInputs.cache
+C:\@work\Consultoria\SintaxeApp\SintaxeApp\SintaxeApp\obj\Debug\netstandard2.0\SintaxeApp.AssemblyInfoInputs.cache
+C:\@work\Consultoria\SintaxeApp\SintaxeApp\SintaxeApp\obj\Debug\netstandard2.0\SintaxeApp.AssemblyInfo.cs
+C:\@work\Consultoria\SintaxeApp\SintaxeApp\SintaxeApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\@work\Consultoria\SintaxeApp\SintaxeApp\SintaxeApp\obj\Debug\netstandard2.0\SintaxeApp.dll
+C:\@work\Consultoria\SintaxeApp\SintaxeApp\SintaxeApp\obj\Debug\netstandard2.0\SintaxeApp.pdb
