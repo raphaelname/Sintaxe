@@ -6,7 +6,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\inetpub\wwwroot\Sintaxe</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\sintaxe</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="Areas/HelpPage/HelpPage.css">
@@ -292,10 +292,10 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>02/01/2018 13:20:56</publishTime>
     </File>
     <File Include="bin/WebApplication1.dll">
-      <publishTime>04/02/2019 21:37:44</publishTime>
+      <publishTime>04/03/2019 15:01:21</publishTime>
     </File>
     <File Include="bin/WebApplication1.pdb">
-      <publishTime>04/02/2019 21:37:44</publishTime>
+      <publishTime>04/03/2019 15:01:21</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>01/23/2014 14:57:34</publishTime>
@@ -391,7 +391,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>04/02/2019 12:48:26</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/02/2019 21:35:54</publishTime>
+      <publishTime>04/03/2019 15:01:22</publishTime>
     </File>
   </ItemGroup>
 </Project>

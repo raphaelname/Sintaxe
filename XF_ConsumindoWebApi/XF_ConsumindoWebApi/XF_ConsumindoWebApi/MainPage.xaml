@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_ConsumindoWebApi"
+             x:Class="XF_ConsumindoWebApi.MainPage"
+             BackgroundColor="White">
+
+    <StackLayout Orientation="Vertical">
+        <Label Text="Lista de Produtos" TextColor="Red" />
+        <SearchBar x:Name="sbProcurar" Placeholder="Procurar..." TextChanged="Procurar_TextChanged"/>
+        <ListView x:Name="produtoLista" Margin="5" 
+                  HasUnevenRows="True" 
+                  IsGroupingEnabled="True"
+                  GroupDisplayBinding="{Binding Key}"
+                  SeparatorVisibility="Default" 
+                  SeparatorColor="Black">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ImageCell Text="{Binding Nome}" 
+                               Detail="{Binding Preco, StringFormat='R{0:c}'}" 
+                               ImageSource="{Binding Foto}"
+                               TextColor="Black" DetailColor="Blue"/>
+                    />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

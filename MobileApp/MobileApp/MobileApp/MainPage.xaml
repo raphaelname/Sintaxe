@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MobileApp"
+             x:Class="MobileApp.MainPage"
+             BackgroundColor="White">
+
+    <StackLayout Orientation="Vertical">
+        <Label Text="Lista de Registros" TextColor="Red" />
+        <SearchBar x:Name="sbProcurar" Placeholder="Procurar..." TextChanged="Procurar_TextChanged"/>
+        <ListView x:Name="lista" Margin="5" 
+                  HasUnevenRows="True" 
+                  IsGroupingEnabled="True"
+                  GroupDisplayBinding="{Binding Key}"
+                  SeparatorVisibility="Default" 
+                  SeparatorColor="Black">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ImageCell Text="{Binding Descricao}" 
+                               Detail="{Binding Data}" 
+                               TextColor="Black" DetailColor="Blue"/>
+                    />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
